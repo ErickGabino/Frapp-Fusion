@@ -1,0 +1,48 @@
+footer {
+  background: #000;
+  font-family: "Manrope", sans-serif, Arial; }
+  footer .copyright {
+    text-align: center;
+    padding: 15px 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic; }
+  footer .redesSociales {
+    width: 100%;
+    color: #fff; }
+    footer .redesSociales .titulo {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: 200;
+      font-size: 30px; }
+  footer .iconos {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    footer .iconos i {
+      font-size: 55px;
+      color: #4c4949; }
+  footer .fa-facebook:hover {
+    color: #ffffff; }
+  footer .fa-instagram:hover {
+    color: #ffffff; }
+  footer .fa-whatsapp:hover {
+    color: #ffffff; }
+  footer .fa-twitter:hover {
+    color: #ffffff; }
+  footer .estrellas {
+    width: 100%;
+    text-align: center; }
+    footer .estrellas i {
+      font-size: 25px;
+      font-weight: 800;
+      margin: 0 10px; }
+  footer .nombre {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 15px; }
+
+/*# sourceMappingURL=footer.css.map */

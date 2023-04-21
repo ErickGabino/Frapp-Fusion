@@ -1,0 +1,54 @@
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%; }
+    body header .contenedor {
+      position: static;
+      height: 400px; }
+      body header .contenedor .menu {
+        text-align: center; }
+        body header .contenedor .menu a {
+          margin: 10px 20px; }
+      body header .contenedor .textos {
+        position: static;
+        margin: 100px 0; }
+        body header .contenedor .textos .nombre {
+          font-size: 30px; }
+        body header .contenedor .textos h3 {
+          font-size: 18px; }
+
+  .main .acerca .contenedor .imagen {
+    width: 100%;
+    position: relative; }
+  .main .acerca .contenedor .acercaTexto {
+    position: relative;
+    width: 100%;
+    top: -50px;
+    transform: translate(0px, 0); }
+  .main #menu {
+    padding-top: 300px; }
+    .main #menu .contenedor .contenedor-menu .contenedor-menu2 article {
+      width: 100%; }
+  .main .galeria .imagenes img {
+    width: 50%; }
+  .main .mapa {
+    width: 80%;
+    margin: auto; } }
+@media screen and (max-width: 400px) {
+  .main .acerca .contenedor .acercaTexto h3 {
+    font-size: 24px; }
+  .main #menu .contenedor .contenedor-menu .contenedor-menu2 article .nombre, .main #menu .contenedor .contenedor-menu .contenedor-menu2 article .precio {
+    font-size: 19px; }
+  .main #ubicacion .contenedor .direccion, .main #ubicacion .contenedor .horarios {
+    width: 100%;
+    text-align: center; }
+
+  footer .contenedor .titulo {
+    font-size: 20px; }
+  footer .contenedor .iconos i {
+    font-size: 20px; }
+  footer .contenedor .estrellas i {
+    font-size: 12px; }
+  footer .contenedor .nombre p {
+    font-size: 12px; } }
+
+/*# sourceMappingURL=mediaqueries.css.map */
