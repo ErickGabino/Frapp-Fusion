@@ -64,14 +64,14 @@ $(document).ready(function(){
     $('#btnUbicacion').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: ubicacion
+            scrollTop: ubicacion+100
         }, 500);
     });
 
     $('#btnResena').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: resena
+            scrollTop: resena+100
         }, 500);
     });
 });
