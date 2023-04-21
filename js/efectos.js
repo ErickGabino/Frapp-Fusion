@@ -40,38 +40,151 @@ $(document).ready(function(){
         ubicacion = $('#ubicacion').offset().top,
         resena = $('#resena').offset().top;
 
-    $('#btnAcerca').on('click', function(e){
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: acerca-100
-        }, 500);
-    });
+     if($(window).width() > 850){
+        $('#btnAcerca').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: acerca-100
+            }, 500);
+        });
+    
+        $('#btnMenu').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: menu-100
+            }, 500);
+        });
+    
+        $('#btnGaleria').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: galeria
+            }, 500);
+        });
+    
+        $('#btnUbicacion').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: ubicacion
+            }, 500);
+        });
+    
+        $('#btnResena').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: resena
+            }, 500);
+        });
+    }
 
-    $('#btnMenu').on('click', function(e){
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: menu-100
-        }, 500);
-    });
+    if($(window).width() < 851){
+        $('#btnAcerca').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: acerca-150
+            }, 500);
+        });
+    
+        $('#btnMenu').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: menu-100
+            }, 500);
+        });
+    
+        $('#btnGaleria').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: galeria-200
+            }, 500);
+        });
+    
+        $('#btnUbicacion').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: ubicacion+90
+            }, 500);
+        });
+    
+        $('#btnResena').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: resena
+            }, 500);
+        });
+    }
 
-    $('#btnGaleria').on('click', function(e){
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: galeria
-        }, 500);
-    });
+    if($(window).width() < 451){
+        $('#btnAcerca').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: acerca-150
+            }, 500);
+        });
+    
+        $('#btnMenu').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: menu-100
+            }, 500);
+        });
+    
+        $('#btnGaleria').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: galeria-200
+            }, 500);
+        });
+    
+        $('#btnUbicacion').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: ubicacion+180
+            }, 500);
+        });
+    
+        $('#btnResena').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: resena+100
+            }, 500);
+        });
+    }
 
-    $('#btnUbicacion').on('click', function(e){
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: ubicacion+100
-        }, 500);
-    });
-
-    $('#btnResena').on('click', function(e){
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: resena+100
-        }, 500);
-    });
+    if($(window).width() < 301){
+        $('#btnAcerca').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: acerca-150
+            }, 500);
+        });
+    
+        $('#btnMenu').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: menu-100
+            }, 500);
+        });
+    
+        $('#btnGaleria').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: galeria-200
+            }, 500);
+        });
+    
+        $('#btnUbicacion').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: ubicacion+190
+            }, 500);
+        });
+    
+        $('#btnResena').on('click', function(e){
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: resena+300
+            }, 500);
+        });
+    }
 });
